@@ -1,0 +1,23 @@
+.terminalOptions {
+  height: 30px;
+  width: 100%;
+  background-color: #151616;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+.terminalOptions .options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.terminalOptions .options h4 {
+  color: white;
+  padding: 5.5px 12.5px;
+  cursor: pointer;
+}
+.terminalOptions .options .close:hover {
+  transition: background-color 0.1s;
+  background-color: #d63031;
+}
